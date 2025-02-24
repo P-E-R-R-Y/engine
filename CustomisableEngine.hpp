@@ -20,7 +20,7 @@
  * @tparam Parents 
  */
 template <typename... Parents>
-class CustomisableEngine : public Engine, public Parents... {
+class CustomisableEngine : public IEngine, public Parents... {
 
     public:
 
